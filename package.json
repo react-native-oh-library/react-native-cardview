@@ -1,11 +1,14 @@
 {
-  "name": "react-native-cardview",
+  "name": "@react-native-oh-tpl/react-native-cardview",
   "description": "A react native card view",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "libs/index.d.ts",
+  "module": "libs/index.d.ts",
+  "types": "libs/index.d.ts",
+  "react-native": "src/index",
+  "source": "src/index",
   "author": "Kishan Vaghela (kishanjvaghela@gmail.com)",
   "license": "MIT",
-  "version": "2.0.3",
+  "version": "2.0.3-0.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/Kishanjvaghela/react-native-cardview.git"
@@ -34,7 +37,13 @@
     "support",
     "android",
     "ios",
+    "harmony",
     "component"
+  ],
+  "files": [
+    "src",
+    "libs",
+    "harmony"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -42,9 +51,11 @@
     "publish": "npm publish"
   },
   "peerDependencies": {
-    "react-native": "^0.56.0"
+    "react": "*",
+    "react-native": "*"
   },
   "dependencies": {
-    "prop-types": "^15.6.0"
+    "prop-types": "^15.6.0",  
+    "react-native-cardview":"2.0.3"
   }
 }
