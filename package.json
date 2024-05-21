@@ -55,7 +55,7 @@
     "react-native": "*"
   },
   "dependencies": {
-    "prop-types": "^15.6.0",  
-    "react-native-cardview":"2.0.3"
+    "prop-types": "^15.6.0",
+    "react-native-cardview": "^1.1.5"
   }
 }

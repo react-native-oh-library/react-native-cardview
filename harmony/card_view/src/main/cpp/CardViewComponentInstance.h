@@ -2,7 +2,6 @@
 #ifndef HARMONY_CARDVIEWCOMPONENTINSTANCE_H
 #define HARMONY_CARDVIEWCOMPONENTINSTANCE_H
 #include "RNOH/CppComponentInstance.h"
-#include "RNOH/arkui/StackNode.h"
 #include "CardViewStackNode.h"
 #include "ShadowNodes.h"
 #include "Props.h"

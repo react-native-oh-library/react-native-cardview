@@ -1,6 +1,5 @@
 #ifndef HARMONY_CARDVIEW_SRC_MAIN_CPP_CARDVIEWPACKAGE_H
 #define HARMONY_CARDVIEW_SRC_MAIN_CPP_CARDVIEWPACKAGE_H
-#include "RNOHCorePackage/ComponentInstances/ViewComponentInstance.h"
 #include "RNOH/Package.h"
 #include "CardViewComponentInstance.h"
 #include "CardViewDescriptor.h"

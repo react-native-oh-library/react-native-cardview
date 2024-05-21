@@ -1,7 +1,6 @@
 #include "CardViewStackNode.h"
-#include "RNOH/arkui/NativeNodeApi.h"
+#include "NativeNodeApi.h"
 #include <ace/xcomponent/native_interface_xcomponent.h>
-#include <arkui/native_node.h>
 #include <memory>
 #include "glog/logging.h"
 
