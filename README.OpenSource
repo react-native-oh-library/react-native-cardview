@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "react-native-cardview",
+        "License": "MIT License",
+        "License File": "https://github.com/Kishanjvaghela/react-native-cardview/blob/master/LICENSE",
+        "Version Number": "2.0.3",
+        "Owner" : "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/Kishanjvaghela/react-native-cardview",
+        "Description": "A android like toast for react-native support for HarmonyOS"
+    }
+]
