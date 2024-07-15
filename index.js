@@ -1,3 +1,3 @@
-import CardView from './libs/CardView';
+import CardView from './libs/CardView.harmony';
 
 export default CardView;
