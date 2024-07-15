@@ -23,6 +23,7 @@
  */
 
 #pragma once
+#include <arkui/native_interface.h>
 #include <arkui/native_node.h>
 
 namespace rnoh {

@@ -55,15 +55,21 @@ void CardViewStackNode::insertChild(ArkUINode &child, std::size_t index) {
         maybeThrow(NativeNodeApi::getInstance()->setAttribute(m_nodeHandle, NODE_BORDER_RADIUS, &indexItem));
         return *this;
     }
-    CardViewStackNode &CardViewStackNode::setCardElevation(const float &elevation) {
+    CardViewStackNode &CardViewStackNode::setCardElevation(const float &elevation) { 
         if (elevation > maxElevation) {
             cardElevation = maxElevation;
         } else {
             cardElevation = elevation;
         }
-        ArkUI_NumberValue indexValue[] = {{.f32 = cardElevation}};
+        ArkUI_NumberValue indexValue[] = {15,
+                                          0,
+                                          {.f32 = cardElevation},
+                                          {.f32 = cardElevation},
+                                          ARKUI_SHADOW_TYPE_COLOR,
+                                          static_cast<float>(0XFF7080BB),
+                                          0};
         ArkUI_AttributeItem indexItem = {indexValue, sizeof(indexValue) / sizeof(ArkUI_NumberValue)};
-        maybeThrow(NativeNodeApi::getInstance()->setAttribute(m_nodeHandle, NODE_SHADOW, &indexItem));
+        maybeThrow(NativeNodeApi::getInstance()->setAttribute(m_nodeHandle, NODE_CUSTOM_SHADOW, &indexItem));
         return *this;
     }
     CardViewStackNode &CardViewStackNode::setCardMaxElevation(const float &MaxElevation) {
