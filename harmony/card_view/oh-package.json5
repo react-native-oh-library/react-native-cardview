@@ -8,7 +8,7 @@
   description: "React Native CardView component",
   main: 'index.ets',
   type: 'module',
-  version: '2.0.3-0.0.1',
+  version: '2.0.3-0.0.2',
   dependencies: {    "@rnoh/react-native-openharmony": "file:../react_native_openharmony"  },
 }
 
